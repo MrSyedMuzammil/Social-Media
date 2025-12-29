@@ -1,0 +1,20 @@
+/* ✅ CORRECT (L.V.F.H.A) */
+
+a:link {
+  color: blue;
+}
+a:visited {
+  color: purple;
+}
+
+/* Focus & Hover often go together */
+a:focus {
+  border: 2px solid;
+}
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: green;
+}
