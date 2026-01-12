@@ -1,0 +1,40 @@
+/* Base styles */
+.item {
+  background-color: #ffeead;
+  color: #ff6f69;
+}
+
+.featured {
+  background-color: #ffe55b;
+}
+
+.featured > button {
+  background-color: #ff5564;
+  color: #ffffff;
+}
+
+.featured > h1 {
+  color: #ff5564;
+}
+
+:root {
+  --brand-primary: #ff6f69;
+  --brand-bg: #ffeead;
+  --brand-accent: #ffcc5c;
+}
+
+.item {
+  background-color: var(--brand-bg);
+}
+.item h1 {
+  color: var(--brand-primary);
+}
+.item button {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+.featured {
+  --brand-bg: #ffe55b;
+  --brand-primary: #ff5564;
+}
